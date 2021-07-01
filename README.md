@@ -11,7 +11,7 @@ Building the client library requires:
 To copy project to your computer copy link of the repository, open command prompt, go to the location where project will be copied and execute git clone command:
 
 ```git
-git clone https://github.com/VitaliiYaremko/basic-CSharp-Postman-App.git
+git clone https://github.com/kyriba/dev-portal-basic-CSharp-Postman-App-sample.git
 ```
 
 Then open command prompt and go to your project directory, for example:
