@@ -1,4 +1,4 @@
-# basic-CSharp-Postman-App
+# dev-portal-basic-CSharp-Postman-App
 
 ## Requirements
 
@@ -17,7 +17,7 @@ git clone https://github.com/VitaliiYaremko/basic-CSharp-Postman-App.git
 Then open command prompt and go to your project directory, for example:
 
 ```shell
-cd basic-CSharp-Postman-App
+cd dev-portal-basic-CSharp-Postman-App
 ```
 
 After that, start your project by performing the following steps:
