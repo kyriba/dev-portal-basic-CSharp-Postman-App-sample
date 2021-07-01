@@ -2,7 +2,7 @@
 using RestSharp;
 using System.Text.Json;
 
-namespace dev_portal_basic_CSharp_Java_Postman_App_sample
+namespace basic_CSharp_Postman_App
 {
     class App
 
@@ -10,6 +10,10 @@ namespace dev_portal_basic_CSharp_Java_Postman_App_sample
         static void Main(string[] args)
         {
             //paste your code under this line
+
+
+            
+            Console.WriteLine(PrettyJson(response.Content));
         }
 
         public static string PrettyJson(string unPrettyJson)

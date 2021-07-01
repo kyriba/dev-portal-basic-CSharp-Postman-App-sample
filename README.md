@@ -1,4 +1,4 @@
-# dev-portal-basic-CSharp-Java-Postman-App-sample
+# basic-CSharp-Postman-App
 
 ## Requirements
 
@@ -11,13 +11,13 @@ Building the client library requires:
 To copy project to your computer copy link of the repository, open command prompt, go to the location where project will be copied and execute git clone command:
 
 ```git
-git clone https://github.com/kyriba/dev-portal-basic-CSharp-Java-Postman-App-sample.git
+git clone https://github.com/VitaliiYaremko/basic-CSharp-Postman-App.git
 ```
 
 Then open command prompt and go to your project directory, for example:
 
 ```shell
-cd dev-portal-basic-CSharp-Java-Postman-App-sample
+cd basic-CSharp-Postman-App
 ```
 
 After that, start your project by performing the following steps:
@@ -30,7 +30,7 @@ After that, start your project by performing the following steps:
 
 3. In "Code snippet", proceed to the dropdown list with different programming languages, where "cURL" is set by default, and choose "C# - RestSharp" from the list.
 
-4. There, copy the snippet to clipboard:
+4. There, copy the snippet without the last line to clipboard:
 
 ![img_2.png](img_2.png)
 
@@ -40,19 +40,7 @@ After that, start your project by performing the following steps:
 
 ![img_4.png](img_4.png)
 
-7. Replace last line of copied code
-
-```code
-Console.WriteLine(response.Content);
-```
-
-with this one:
-
-```code
-Console.WriteLine(PrettyJson(response.Content));
-```
-
-8. Execute this command in Terminal in root folder of cloned app:
+7. Execute this command in Terminal in root folder of cloned app:
 
 ```shell
 dotnet run
