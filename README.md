@@ -4,8 +4,8 @@
 
 Building the client library requires:
 
-.NET SDK 5.0 or higher - [Installation](https://dotnet.microsoft.com/download/dotnet/sdk-for-vs-code?utm_source=vs-code&amp;utm_medium=referral&amp;utm_campaign=sdk-install)
-
+- .NET SDK 7.0 or higher - [Installation](https://dotnet.microsoft.com/download/dotnet/sdk-for-vs-code?utm_source=vs-code&amp;utm_medium=referral&amp;utm_campaign=sdk-install)
+- Postman v10 - [Installation](https://www.postman.com/downloads/)
 ## Installation
 
 To copy project to your computer copy link of the repository, open command prompt, go to the location where project will be copied and execute git clone command:
@@ -17,7 +17,8 @@ git clone https://github.com/kyriba/dev-portal-basic-CSharp-Postman-App-sample.g
 Then open command prompt and go to your project directory, for example:
 
 ```shell
-cd dev-portal-basic-CSharp-Postman-App
+cd dev-portal-basic-CSharp-Postman-App-sample
+cd root
 ```
 
 After that, start your project by performing the following steps:
@@ -47,3 +48,10 @@ dotnet run
 ```
 
 If everything was done accordingly with provided steps, the result is going to be printed in the command prompt.
+
+## Compatibility Matrix
+
+| version | compatible with .NET | compatible with Postman |
+|---------|----------------------|-------------------------|
+| 1.0.0   | 5.0 or higher        | v8 or higher            |
+| 1.1.0   | 7.0 or higher        | v10 or higher           |
